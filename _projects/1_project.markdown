@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: SmileAI
+description: Convolutional neural network written from scratch using numpy (no deep learning libraries)
 img: /assets/img/12.jpg
 importance: 1
 category: work
