@@ -6,7 +6,7 @@ description: #<a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
  
 
 news: true  # includes a list of news items
