@@ -11,7 +11,7 @@
   Ethan  Hsu
 
 
-  | blog
+  | projects
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -108,11 +108,9 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li>
@@ -153,9 +151,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/projects/">
                 projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -183,56 +183,133 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Organized Chaos</h1>
-    <h2>trying to add structure to learning</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">projects</h1>
+    <p class="post-description">A collection of projects to expand my software knowledge</p>
+  </header>
 
+  <article>
+    <div class="projects">
+  
+  <!-- Display projects without categories -->
+    
+    <!-- Generate cards for each project -->
+    
+      <div class="grid">
+        
+          <div class="grid-item">
+  
+  <a href="https://smileai.azurewebsites.net" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/smileai.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">SmileAI</h2>
+        <p class="card-text">Web application that utilizes a convolutional neural network to determine if you are smiling or not. Convolutional neural network is written from scratch using only Python's numpy (no deep learning libraries, other than for making sure  outputs and gradients were correctly computed). (Beware the web app will take a bit of time to predict since no deep learning libraries were used)</p>
+        <p class="card-text"><strong>Skills: Python, React.js, Docker, Azure, Flask, Pytorch (for testing implementation)</strong></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
 
-  <ul class="post-list">
+        
+          <div class="grid-item">
+  
+  <a href="https://ethsu1.github.io/deepRL" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/rlmlexp.gif" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">rl-ml-experiments</h2>
+        <p class="card-text">Reinforcement learning and machine learning experiments comparing effectiveness of deep deterministic policy gradients, deep SARSA, deep Q learning, q learning with linear regression, and q learning with SVM regression to solve small game environments</p>
+        <p class="card-text"><strong>Skills: Python, Tensorflow, OpenAI</strong></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+          <div class="grid-item">
+  
+  <a href="https://productivityio.azurewebsites.net" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/productivityio.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">ProductivityIO</h2>
+        <p class="card-text">Web application that gamifies productivity. Inspired by the pomodoro study method, users set a timer and when the timer runs out, users are reward with a minigame. Each timed session grants the user more health points in the game. If used with chrome browser, the user can specify websites that they would like to block during a timed session</p>
+        <p class="card-text"><strong>Skills: Golang, React.js, MySQL, Docker, Azure, Chrome Extension</strong></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+          <div class="grid-item">
+  
+  <a href="https://ner-bilstm-crf.herokuapp.com" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/guesstheentity.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">GuessTheEntity</h2>
+        <p class="card-text">Implemented a BiLSTM-CRF neural network using Pytorch for named entity recognition (NER). Trained to detect the beginning and end of entities (like people, organizations, locations) when given a sentence or phrase. Users can input unique sentences in on the web app and see how the model performs. Example: Taiwan is a beautiful country. Output: [B-LOC, O, O, O, O].This means that the model detected that Taiwan refers to a location so it classifies Taiwan as B-LOC which means beginning of a location entity. The rest of the words in the sentence are O tags which stand for other (words not pertaining to a particular entity).</p>
+        <p class="card-text"><strong>Skills: Python, Pytorch, Flask, Herok</strong></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+          <div class="grid-item">
+  
+  <a href="/projects/5_project/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/roomi.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">ROOMI</h2>
+        <p class="card-text">Web application to organize tasks for roommates in a household, such as chores list, bills, shopping lists, and parking schedule. I was one of the co-leads for the ROOMI team fo 10 students for UCSD's CSE 110 course. As one of the coleads, I helped assign tasks to the team and was on-call for any emergency bug fixes during testing. Some of the features of the application I worked on were the backend for organizing and assigning chores, shopping lists, and parking schedules for a household.</p>
+        <p class="card-text"><strong>Skills: </strong></p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      </div>
     
-      <li>
-        <h3><a class="post-title" href="//blog/2021/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">May 22, 2021</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="//blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="//blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-  </ul>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
 
+</div>
 
+  </article>
 
 </div>
 
