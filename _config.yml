@@ -75,8 +75,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Random Knowledge # your blog must have a name for it to show up in the nav bar
-blog_description: collection of articles dedicated to learning more
+blog_name: Organized Chaos # your blog must have a name for it to show up in the nav bar
+blog_description: trying to add structure to learning
 permalink: /blog/:year/:title/
 
 # Pagination
