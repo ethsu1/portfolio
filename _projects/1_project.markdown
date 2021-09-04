@@ -1,8 +1,9 @@
 ---
 layout: page
 title: SmileAI
-description: Convolutional neural network written from scratch using numpy (no deep learning libraries)
-img: /assets/img/12.jpg
+description: Web application that utilizes a convolutional neural network to determine if you are smiling or not. \
+	Convolutional neural network is written from scratch using only Python's numpy (no deep learning libraries, other than for making sure  outputs and gradients were correctly computed). (Beware the web app will take a bit of time to predict since no deep learning libraries were used),
+img: /assets/img/smileai.png
 importance: 1
 category: work
 ---
