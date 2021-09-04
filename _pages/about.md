@@ -14,8 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm currently an MS student at University of California, San Diego, studying Computer Science (Focus: Artificial Intelligence). I also received my BS in Computer Science and minor in Math from UC San Diego (Class of 2020). I strive to always learn more and experience more such that I can make a positive impact on those around me.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+When I'm not doing something programming related, I enjoy trying to pick up heavy objects and moving them from point A to point B (aka powerlifting), reading, baking, and playing Legend of Zelda (or getting wrecked in Valorant).
