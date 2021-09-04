@@ -2,8 +2,9 @@
 layout: page
 title: ProductivityIO
 description: Web application that gamifies productivity. Inspired by the pomodoro study method, users set a timer and when the timer runs out, users are reward with a minigame. Each timed session grants the user more health points in the game. If used with chrome browser, the user can specify websites that they would like to block during a timed session
+skills: Golang, React.js, MySQL, Docker, Azure, Chrome Extension
 img: /assets/img/productivityio.png
-redirect: https://unsplash.com
+redirect: https://productivityio.azurewebsites.net
 importance: 3
 category: fun
 ---

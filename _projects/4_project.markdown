@@ -1,8 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: GuessTheEntity
+description: "Implemented a BiLSTM-CRF neural network using Pytorch for named entity recognition (NER). Trained to detect the beginning and end of entities (like people, organizations, locations) when given a sentence or phrase. Users can input unique sentences in on the web app and see how the model performs. Example: Taiwan is a beautiful country. Output: [B-LOC, O, O, O, O].This means that the model detected that Taiwan refers to a location so it classifies Taiwan as B-LOC which means beginning of a location entity. The rest of the words in the sentence are O tags which stand for other (words not pertaining to a particular entity)."
+skills: Python, Pytorch, Flask, Herok
+img: /assets/img/guesstheentity.png
+redirect: https://ner-bilstm-crf.herokuapp.com
 importance: 3
 category: fun
 ---

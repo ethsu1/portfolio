@@ -2,7 +2,9 @@
 layout: page
 title: SmileAI
 description: Web application that utilizes a convolutional neural network to determine if you are smiling or not. Convolutional neural network is written from scratch using only Python's numpy (no deep learning libraries, other than for making sure  outputs and gradients were correctly computed). (Beware the web app will take a bit of time to predict since no deep learning libraries were used)
+skills: Python, React.js, Docker, Azure, Flask, Pytorch (for testing implementation)
 img: /assets/img/smileai.png
+redirect: https://smileai.azurewebsites.net
 importance: 1
 category: fun
 ---

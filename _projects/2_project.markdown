@@ -2,7 +2,9 @@
 layout: page
 title: rl-ml-experiments
 description: Reinforcement learning and machine learning experiments comparing effectiveness of deep deterministic policy gradients, deep SARSA, deep Q learning, q learning with linear regression, and q learning with SVM regression to solve small game environments
+skills: Python, Tensorflow, OpenAI
 img: /assets/img/rlmlexp.gif
+redirect: https://ethsu1.github.io/deepRL
 importance: 2
 category: fun
 ---
