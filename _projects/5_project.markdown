@@ -4,7 +4,6 @@ title: ROOMI
 description: "Web application to organize tasks for roommates in a household, such as chores list, bills, shopping lists, and parking schedule. I was one of the co-leads for the ROOMI team fo 10 students for UCSD's CSE 110 course. As one of the coleads, I helped assign tasks to the team and was on-call for any emergency bug fixes during testing. Some of the features of the application I worked on were the backend for organizing and assigning chores, shopping lists, and parking schedules for a household."
 img: /assets/img/roomi.png
 importance: 3
-category:
 ---
 
 Every project has a beautiful feature showcase page.

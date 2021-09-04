@@ -6,7 +6,6 @@ skills: Python, Tensorflow, OpenAI
 img: /assets/img/rlmlexp.gif
 redirect: https://ethsu1.github.io/deepRL
 importance: 2
-category: 
 ---
 
 Every project has a beautiful feature showcase page.
