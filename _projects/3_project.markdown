@@ -5,7 +5,7 @@ description: Web application that gamifies productivity. Inspired by the pomodor
 img: /assets/img/productivityio.png
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
