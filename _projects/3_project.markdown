@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
+title: ProductivityIO
+description: Web application that gamifies productivity. Inspired by the pomodoro study method, users set a timer and when the timer runs out, users are reward with a minigame. Each timed session grants the user more health points in the game. If used with chrome browser, the user can specify websites that they would like to block during a timed session
+img: /assets/img/productivityio.png
 redirect: https://unsplash.com
 importance: 3
 category: work

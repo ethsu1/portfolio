@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: rl-ml-experiments
+description: Reinforcement learning and machine learning experiments comparing effectiveness of deep deterministic policy gradients, deep SARSA, deep Q learning, q learning with linear regression, and q learning with SVM regression to solve small game environments
+img: /assets/img/rlmlexp.gif
 importance: 2
-category: work
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
