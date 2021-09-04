@@ -31,6 +31,15 @@
               {% endif %}
             </a>
           </li>
+          <!-- Experience -->
+          <li class="nav-item {% if page.url == 'experience' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/experience/' | relative_url }}">
+              experience
+              {% if page.title == "experience" %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
           {% if site.blog_name %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -65,7 +74,7 @@
               </div>
           </li>
           {% else %}
-          <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+          <li class="nav-item {% if page.title == p.title  and page.title%}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
                 {{ p.title }}
                 {% if page.title == p.title %}

@@ -1,0 +1,22 @@
+<div class="grid-item">
+    {% if experience.redirect %}
+    <a href="{{ experience.redirect }}" target="_blank">
+    {% else %}
+    <a href="{{ experience.url | relative_url }}">
+    {% endif %}
+      <div class="card hoverable">
+        {% if experience.img %}
+        <img src="{{ experience.img | relative_url }}" alt="experience thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ experience.company}}</h2>
+          <h3 class="card-title">{{ experience.title }}</h3>
+          <h5 class="card-title">{{ experience.duration}}</h5>
+          {% for point in experience.description %}
+            <p class="card-text">{{ point}}</p>
+          {% endfor %}
+          <p class="card-text"><strong>Skills: {{ experience.skills }}</strong></p>
+        </div>
+      </div>
+    </a>
+  </div>
