@@ -6,7 +6,6 @@ skills: Python, Pytorch, Flask, Herok
 img: /assets/img/guesstheentity.png
 redirect: https://ner-bilstm-crf.herokuapp.com
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.

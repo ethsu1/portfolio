@@ -6,7 +6,7 @@ skills: Golang, React.js, MySQL, Docker, Azure, Chrome Extension
 img: /assets/img/productivityio.png
 redirect: https://productivityio.azurewebsites.net
 importance: 3
-category: fun
+category:
 ---
 
 Every project has a beautiful feature showcase page.

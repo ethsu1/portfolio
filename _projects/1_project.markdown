@@ -6,7 +6,7 @@ skills: Python, React.js, Docker, Azure, Flask, Pytorch (for testing implementat
 img: /assets/img/smileai.png
 redirect: https://smileai.azurewebsites.net
 importance: 1
-category: fun
+category: 
 ---
 
 Every project has a beautiful feature showcase page.
